@@ -1,0 +1,21 @@
+Sequential elapsed time - 15730.03 s.
+
+p = 1, elapsed time = 15730.06 s.
+
+p = 2, elapsed time = 7865.10 s.
+
+p = 3, elapsed time = 5243.44 s.
+
+p = 4, elapsed time = 3932.50 s.
+
+p = 6, elapsed time = 2621.09 s.
+
+p = 8, elapsed time = 1966.22 s.
+
+p = 12, elapsed time = 1310.43 s.
+
+p = 16, elapsed time = 983.02 s.
+
+p = 24, elapsed time = 655.13 s.
+
+p = 32, elapsed time = 491.66 s.

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+testone () {
+    echo -n "P = ${2} ... "
+    mpirun -np ${2} ./tester ${1}
+    echo "Done."
+}
+
+testing () {
+    echo
+    echo "Testing for = ${1} ..."
+    echo -n "Sequential ... "
+    ./Smerge ${1}
+    echo "Done."
+    for j in 2 4 8 16 32; do
+        testone ${1} ${j}
+    done
+}
+
+gcc -ansi -Wall -o Smerge Smerge.cpp
+mpic++ -ansi -Wall -o tester tester.cpp
+
+testing input.in
+
+

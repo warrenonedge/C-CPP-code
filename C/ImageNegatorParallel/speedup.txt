@@ -1,0 +1,39 @@
+Speedup Factor for p = 1:
+
+0.9999
+
+Speedup Factor for p = 2:
+
+1.9999
+
+Speedup Factor for p = 3:
+
+2.9999
+
+Speedup Factor for p = 4:
+
+4.0000
+
+Speedup Factor for p = 6:
+
+6.0013
+
+Speedup Factor for p = 8:
+
+8.0001
+
+Speedup Factor for p = 12:
+
+12.0037
+
+Speedup Factor for p = 16:
+
+16.0017
+
+Speedup Factor for p = 24:
+
+24.0105
+
+Speedup Factor for p = 32:
+
+31.9937
